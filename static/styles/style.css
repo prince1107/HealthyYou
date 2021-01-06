@@ -1,0 +1,35 @@
+/* Add any styling to your website here (fonts, colors, spacing, etc.) */
+
+h3 {
+    color: purple;
+}
+
+body {
+	background: linear-gradient(to right, #FEA47F, #B33771, #3B3B98, #58B19F, #2C3A47, #574b90,#ff4757, #EAB543);
+	background-size: 500% 500%;
+	animation: glow 40s linear infinite;
+}
+
+@keyframes glow {
+	0% {
+		background-position: 0% 100%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*div{
+  font-family: Arial;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+  border: 3px solid #FFF;
+  padding: 20px;
+}*/
